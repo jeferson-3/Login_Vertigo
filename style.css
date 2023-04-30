@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: 'Roboto Mono', sans-serif;
+}
+body{
+  background-color: #adc0dc;
+}
+#page {
+  height: 100vh;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+#page > * {
+  width: 50%;
+}
+#page > div {
+  padding: 40px 112px;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+header{
+  text-align: center;
+  width: 100%;
+  
+}
+
+header img{
+  width: 160px;
+  height: 54px;
+}
+main{
+  max-width: 384px;
+  margin: 114px auto;
+  width: 90%;
+  padding: 5px;
+}
+
+.headline{
+  max-width: 350px;
+}
+h1{
+  font-size: 36px;
+  line-height: 55px;
+  color: #1E293B;
+}
+h1 + p {
+  color: #1E293B;
+  margin-top: 16px;
+}
+
+form{
+ margin-top: 40px;
+}
+
+.input-wrapper{
+  position: relative;
+}
+form .input-wrapper + .input-wrapper{
+  margin-top: 16px;
+}
+
+form input {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 16px 12px;
+
+  margin-top: 8px;
+}
+
+label {
+  font-size: 14px;
+  color: #1e293b;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+label + a {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+form::placeholder{
+  color: #94a3b8;
+}
+inpun:focus, input:hover{
+  border: 1px solid #7c3aed;
+}
+
+form .input-wrapper + input{
+  margin-top: 16px;
+  outline: 0;
+}
+
+.label-wrapper{
+  justify-content: space-between;
+}
+
+.eye{
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 58.3%;
+  right: 8px;
+  
+  
+}
+.hide {
+  display: none;
+}
+
+button{
+  all: unset;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #7c3aed;
+  font-weight: 700;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+form button {
+  width: 100%;
+  background: #7c3ead;
+  border-radius: 4px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: center;
+  
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: 'Roboto Mono';
+
+  margin-block: 32px;
+  transition: background 0.3s ease;
+}
+
+form button:hover{
+  background: #8e4dff;
+}
+
+form button:focus{
+  outline: 2px solid black;
+  border-radius: 2px;
+}
+
+input:disabled{
+  opacity: 0.35;
+}
+
+::-ms-reveal{
+  display: none;
+}
+
+.create-account{
+  color: #475569;
+}
+
+[media] {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+
+[create] {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #7c3aed;
+}
+
+.item-social-media{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #8e4dff;
+  line-height: 65px;
+  text-align: center;
+
+  transition: background 0.3s ease;
+}
+.item-social-media a{
+  color: white;
+  font-size: 30px;
+}
+.item-social-media:hover{
+  background: #8e4dff;
+  border: 1px solid #ffffff;
+}

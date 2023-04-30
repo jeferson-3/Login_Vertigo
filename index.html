@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js"></script>
+  <title>Login</title>
+</head>
+<body>
+  <div id="page" class="flex">
+    <div>
+    <header>
+      <img src="./assets/logo.png" alt="logo">
+    </header>
+ 
+    <main>
+      <div class="headline">
+        <h1>Acesse a Ploataforma</h1>
+        <p>Faça login ou registre-se para comecar a contruir seus projetos ainda hoje.</p>
+      </div>
+      <form>
+        <div class="input-wrapper">
+          <label for="email">E-mail</label>
+          <input id="email" type="email"placeholder="E-mail" required>
+        </div>
+
+        <div class="input-wrapper">
+          <div class="label-wrapper flex">
+
+            <label for="senha">Senha</label>
+            <a href="#">Esqueceu sua senha?</a>
+          </div>
+           <input type="password" id="senha" placeholder="password" required>
+
+           <img onclick="togglePassword()" class="eye" src="./assets/eye-off.svg" alt="password">
+           <img onclick="togglePassword()" class="eye hide" src="./assets/eye.svg" alt="password">
+        </div>
+
+        <button type="submit">Entrar</button>
+
+        <div class="create-account">
+          Ainda não tem conta.?
+          <a href="#">Inscreva-se</a>
+        </div>
+
+        <div class="social-media">
+           <h1 create >sign in with account</h1>
+            <ul media>
+              <li class="item-social-media">
+                <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
+              </li >
+              <li class="item-social-media">
+                <a href="#"> <ion-icon name="logo-googleplus"></ion-icon></a>
+              </li >
+              <li class="item-social-media">
+                <a href="#"> <ion-icon name="logo-linkedin"></ion-icon></a>
+              </li>
+            </ul>
+        </div>
+
+      </form>
+    </main>
+  </div>
+  <img src="./assets/background1.jpg" alt="image">
+  </div>
+
+   <script src="./script.js"></script>
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
