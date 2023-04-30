@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <img alt="Projeto Flapp Bird" src=".github/preview.png" width="100%">
+  <img alt="Login vertigo" src=".Github/preview.png" width="100%">
 </p>
 
 ## 🖥️ Projeto
